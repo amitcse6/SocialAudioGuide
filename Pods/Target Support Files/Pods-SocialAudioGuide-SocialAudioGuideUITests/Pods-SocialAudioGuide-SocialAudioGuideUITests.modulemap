@@ -1,0 +1,6 @@
+framework module Pods_SocialAudioGuide_SocialAudioGuideUITests {
+  umbrella header "Pods-SocialAudioGuide-SocialAudioGuideUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
