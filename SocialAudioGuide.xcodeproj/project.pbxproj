@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,7 @@
 		C06B342826F468E000DF8AB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C06B342626F468E000DF8AB5 /* LaunchScreen.storyboard */; };
 		C06B343326F468E100DF8AB5 /* SocialAudioGuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06B343226F468E100DF8AB5 /* SocialAudioGuideTests.swift */; };
 		C06B343E26F468E100DF8AB5 /* SocialAudioGuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06B343D26F468E100DF8AB5 /* SocialAudioGuideUITests.swift */; };
+		C06B347D26F47D8E00DF8AB5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C06B347C26F47D8E00DF8AB5 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		C06B343926F468E100DF8AB5 /* SocialAudioGuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialAudioGuideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C06B343D26F468E100DF8AB5 /* SocialAudioGuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialAudioGuideUITests.swift; sourceTree = "<group>"; };
 		C06B343F26F468E100DF8AB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C06B347C26F47D8E00DF8AB5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F9E2E56F5125B574D9EF8C36 /* Pods-SocialAudioGuide-SocialAudioGuideUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialAudioGuide-SocialAudioGuideUITests.debug.xcconfig"; path = "Target Support Files/Pods-SocialAudioGuide-SocialAudioGuideUITests/Pods-SocialAudioGuide-SocialAudioGuideUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -135,6 +137,7 @@
 				C06B342426F468E000DF8AB5 /* Assets.xcassets */,
 				C06B342626F468E000DF8AB5 /* LaunchScreen.storyboard */,
 				C06B342926F468E000DF8AB5 /* Info.plist */,
+				C06B347C26F47D8E00DF8AB5 /* GoogleService-Info.plist */,
 				C06B342126F468DD00DF8AB5 /* SocialAudioGuide.xcdatamodeld */,
 			);
 			path = SocialAudioGuide;
@@ -168,7 +171,6 @@
 				5C2F0AAC8A3766334E4F998A /* Pods-SocialAudioGuideTests.debug.xcconfig */,
 				28D730F3A01DF0273EBFE10F /* Pods-SocialAudioGuideTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -281,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C06B342826F468E000DF8AB5 /* LaunchScreen.storyboard in Resources */,
+				C06B347D26F47D8E00DF8AB5 /* GoogleService-Info.plist in Resources */,
 				C06B342526F468E000DF8AB5 /* Assets.xcassets in Resources */,
 				C06B342026F468DD00DF8AB5 /* Main.storyboard in Resources */,
 			);
@@ -597,7 +600,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.amit.SocialAudioGuide;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amsoft71.socialaudioguide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -617,7 +620,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.amit.SocialAudioGuide;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amsoft71.socialaudioguide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
