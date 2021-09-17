@@ -1,4 +1,6 @@
 ${PODS_ROOT}/Target Support Files/Pods-SocialAudioGuide/Pods-SocialAudioGuide-frameworks.sh
+${BUILT_PRODUCTS_DIR}/ASTextField/ASTextField.framework
+${BUILT_PRODUCTS_DIR}/ASValidator/ASValidator.framework
 ${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework
 ${BUILT_PRODUCTS_DIR}/FirebaseAuth/FirebaseAuth.framework
 ${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework

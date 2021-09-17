@@ -338,6 +338,8 @@ PODS:
     - abseil/base/base_internal
     - abseil/base/config
     - abseil/meta/type_traits
+  - ASTextField (0.1.18)
+  - ASValidator (0.1.17)
   - BoringSSL-GRPC (0.0.7):
     - BoringSSL-GRPC/Implementation (= 0.0.7)
     - BoringSSL-GRPC/Interface (= 0.0.7)
@@ -477,6 +479,8 @@ PODS:
   - PromisesObjC (2.0.0)
 
 DEPENDENCIES:
+  - ASTextField
+  - ASValidator
   - Firebase/Analytics
   - Firebase/Auth
   - Firebase/Firestore
@@ -484,6 +488,8 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - abseil
+    - ASTextField
+    - ASValidator
     - BoringSSL-GRPC
     - Firebase
     - FirebaseAnalytics
@@ -504,6 +510,8 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   abseil: 6c8eb7892aefa08d929b39f9bb108e5367e3228f
+  ASTextField: 948b6088f853d21d7d3cf58248e49751eba02bd0
+  ASValidator: d6f0a9bd72469b871862b73c993114ab8844abe0
   BoringSSL-GRPC: 8edf627ee524575e2f8d19d56f068b448eea3879
   Firebase: bc9325d5ee2041524bac78a5213d0e530c651309
   FirebaseAnalytics: 52768800c2add1d84b751420cb4caaf8195f2c41
@@ -522,6 +530,6 @@ SPEC CHECKSUMS:
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
 
-PODFILE CHECKSUM: 3fb0a174f4018ff05e0ba4d0045cf4edb4a67f85
+PODFILE CHECKSUM: c8dd87f6470e764f785a2cd5732bc9c33f526d01
 
 COCOAPODS: 1.10.1

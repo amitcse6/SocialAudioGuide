@@ -17,6 +17,9 @@ target 'SocialAudioGuide' do
   # For example, to use Firebase Authentication and Cloud Firestore
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
+  
+  pod 'ASTextField'
+  pod 'ASValidator'
 
   target 'SocialAudioGuideTests' do
     inherit! :search_paths
